@@ -1,0 +1,57 @@
+.container-a {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-a a {
+    background-color: yellow; /* Mengganti warna latar belakang menjadi kuning */
+    color: #000; /* Mengatur warna teks */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f0f0f0;
+}
